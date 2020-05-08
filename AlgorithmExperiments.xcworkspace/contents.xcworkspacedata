@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PairOfNumbersSum/PairOfNumbersSum.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:BinarySearchTree/BinarySearchTree.xcodeproj">
    </FileRef>
 </Workspace>
