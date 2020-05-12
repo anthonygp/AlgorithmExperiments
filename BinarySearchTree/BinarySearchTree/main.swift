@@ -69,25 +69,6 @@ class BinarySearchTree<Value: Comparable>: CustomStringConvertible {
         return toBeReturned
     }
 
-
-    func printOnConsole(parentNode: Node?, space: Int) {
-        guard let aparentNode = parentNode else {
-            return
-        }
-
-        let nextLevelspace = space + spaceBetweenDifferentLevels
-
-        printOnConsole(parentNode: aparentNode.left, space: nextLevelspace)
-
-        print("(\(aparentNode.value)")
-
-        printOnConsole(parentNode: aparentNode.right, space: nextLevelspace)
-
-    }
-
-
-
-
     func search(value: Value) -> Node? {
         return search(value: value, parentNode: rootNode)
     }
