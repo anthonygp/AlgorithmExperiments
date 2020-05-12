@@ -10,6 +10,8 @@ import Foundation
 
 print("Demonstration of Binary search tree")
 
+
+
 class BinarySearchTree<Value: Comparable>: CustomStringConvertible {
 
     class Node {
@@ -127,6 +129,33 @@ class BinarySearchTree<Value: Comparable>: CustomStringConvertible {
     }
 }
 
+extension BinarySearchTree where Value == Int {
+    func findClosestValue(targetNumber: Value) -> Value {
+        return findClosestValue(node: rootNode, target: targetNumber, closest: Int.max)
+    }
+
+    func findClosestValue(node: Node?, target: Value, closest: Value) -> Value {
+        guard let currentNode = node else {
+            return closest
+        }
+
+        if currentNode.value == closest {
+            return closest
+        }
+
+        var refClosest = closest
+        if abs(currentNode.value - target) < abs(target - closest) {
+            refClosest = currentNode.value
+        }
+
+        if currentNode.value < target {
+            return findClosestValue(node: currentNode.right, target: target, closest: refClosest)
+        } else {
+            return findClosestValue(node: currentNode.left, target: target, closest: refClosest)
+        }
+    }
+}
+
 
 
 let bst = BinarySearchTree<Int>()
@@ -144,5 +173,8 @@ print("exsisting node \(exsistingNode)")
 let nonExsistingNode = bst.search(value: 26)
 print("exsisting node \(nonExsistingNode)")
 
+let target = 31
+let closest = bst.findClosestValue(targetNumber: target)
+print("closest node for \(target) is \(closest)")
 
 print(bst)
