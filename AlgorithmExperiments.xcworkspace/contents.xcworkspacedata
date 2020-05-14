@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ProductSum/ProductSum.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:NthFibonacciNumber/NthFibonacciNumber.xcodeproj">
    </FileRef>
    <FileRef
