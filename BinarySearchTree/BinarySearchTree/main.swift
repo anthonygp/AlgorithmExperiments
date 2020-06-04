@@ -156,11 +156,49 @@ extension BinarySearchTree where Value == Int {
     }
 }
 
+/// Implementation of DFS Running Sum of a branch
+extension BinarySearchTree where Value == Int {
+    func findBranchSum() {
+        branchSum(node: rootNode, runningSum: 0, branchNodes: [])
+    }
+
+    func branchSum(node: Node?, runningSum: Int, branchNodes: [Int]) {
+        guard let currentNode = node else {
+            return
+        }
+
+        let currentSum = runningSum + currentNode.value
+        let newNodes = branchNodes + [currentNode.value]
+
+        if currentNode.left == nil, currentNode.right == nil {
+            print("running sum \(currentSum), from branch nodes \(newNodes)")
+        }
+
+        branchSum(node: currentNode.left, runningSum: currentSum, branchNodes: newNodes)
+        branchSum(node: currentNode.right, runningSum: currentSum, branchNodes: newNodes)
+    }
+
+    func showInDFS() {
+        dfs(node: rootNode)
+    }
+
+    func dfs(node: Node?) {
+        guard let currentNode = node else {
+            return
+        }
+        print(currentNode.value)
+        dfs(node: currentNode.left)
+        dfs(node: currentNode.right)
+    }
+}
+
+
+
 
 
 let bst = BinarySearchTree<Int>()
 
-let numbers = [25, 30, 29, 27]
+let numbers = [24, 25, 28, 30, 29, 27]
 
 for number in numbers {
     print("Inserting... \(number)")
@@ -178,3 +216,6 @@ let closest = bst.findClosestValue(targetNumber: target)
 print("closest node for \(target) is \(closest)")
 
 print(bst)
+
+bst.findBranchSum()
+bst.showInDFS()

@@ -30,7 +30,6 @@ func productSum(array: [Any], multiplier: Int) -> (Int, String) {
 
             result = (result.0 + element * multiplier,
                       "\(result.1) + \(element) * \(multiplier)")
-
         }
     }
 

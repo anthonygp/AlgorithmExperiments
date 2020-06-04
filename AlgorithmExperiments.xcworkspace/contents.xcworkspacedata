@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ThreeLargestNumber/ThreeLargestNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BubbleSort/BubbleSort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingleDigitHighestNumber/SingleDigitHighestNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MomentOfBulbs/MomentOfBulbs.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:ProductSum/ProductSum.xcodeproj">
    </FileRef>
    <FileRef
