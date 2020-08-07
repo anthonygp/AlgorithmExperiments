@@ -34,4 +34,7 @@
    <FileRef
       location = "group:SquareRootOfInteger/SquareRootOfInteger.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:SearchInSortedMatrix/SearchInSortedMatrix.xcodeproj">
+   </FileRef>
 </Workspace>
