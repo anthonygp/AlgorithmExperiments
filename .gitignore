@@ -1,0 +1,10 @@
+# MacOS files
+.DS_Store
+profile
+
+# Xcode
+xcuserdata
+*.pbxuser
+*.xcuserstate
+*xcworkspace/xcuserdata/*
+*xcworkspace/xcshareddata/*

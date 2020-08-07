@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/a.gonsalves/Work/Code/AlgorithmExperiments/SelectionSort/InsertionSort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ThreeLargestNumber/ThreeLargestNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BubbleSort/BubbleSort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SingleDigitHighestNumber/SingleDigitHighestNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MomentOfBulbs/MomentOfBulbs.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:ProductSum/ProductSum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:NthFibonacciNumber/NthFibonacciNumber.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:AddDaysToDay/AddDaysToDay.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PairOfNumbersSum/PairOfNumbersSum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:BinarySearchTree/BinarySearchTree.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SquareRootOfInteger/SquareRootOfInteger.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SearchInSortedMatrix/SearchInSortedMatrix.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LowestCommonAncestor/LowestCommonAncestor.xcodeproj">
+   </FileRef>
+</Workspace>
