@@ -10,18 +10,14 @@ import Foundation
 
 print("Hello, World!")
 
-// [1, -1, 1, -1]
-func hasSingleCycle(input: [Int]) -> Bool {    
-    var uniques = Set<Int>()
 
-    var startIndex = 0
-    for _ in 0..<input.count { // loop until count start from 0 to N(Array length)
-        let visitedIndex = calculate(offset: input[startIndex], length: input.count, index: startIndex)
+func hasSingleCycle(input: [Int]) -> Bool {
+    
+    var uniques = Set<Int>()
+    
+    for (index, element) in input.enumerated() {
+        let visitedIndex = calculate(offset: element, length: input.count, index: index)
         uniques.insert(visitedIndex)
-        if visitedIndex == 0 && uniques.count < input.count {
-            return false
-        }
-        startIndex = visitedIndex
     }
     
     return uniques.count == input.count
@@ -35,6 +31,6 @@ func calculate(offset: Int, length: Int, index: Int) -> Int {
     return jumpedIndex
 }
 
-let input = [1, -1, 1, -1]//[2, 3, 1, -4, -4, 2]
+let input = [2, 3, 1, -4, -4, 2]
 let isProvidedArrayCydle = hasSingleCycle(input: input)
 print(isProvidedArrayCydle ? "Provided Array is a cycle": "Provided Array is not a cycle")
