@@ -31,4 +31,7 @@
    <FileRef
       location = "group:BinarySearchTree/BinarySearchTree.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:SquareRootOfInteger/SquareRootOfInteger.xcodeproj">
+   </FileRef>
 </Workspace>
