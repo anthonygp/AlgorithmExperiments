@@ -7,3 +7,4 @@ xcuserdata
 *.pbxuser
 *.xcuserstate
 *xcworkspace/xcuserdata/*
+*xcworkspace/xcshareddata/*
