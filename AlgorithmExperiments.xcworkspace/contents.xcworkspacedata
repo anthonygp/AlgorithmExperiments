@@ -41,6 +41,9 @@
       location = "group:LowestCommonAncestor/LowestCommonAncestor.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:PermutationsOfUniqueElements/PermutationsOfUniqueElements.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PowerSet/PowerSet.xcodeproj">
    </FileRef>
 </Workspace>
