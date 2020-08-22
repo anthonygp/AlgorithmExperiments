@@ -46,4 +46,7 @@
    <FileRef
       location = "group:PowerSet/PowerSet.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ParenthesisPermutation/ParenthesisPermutation.xcodeproj">
+   </FileRef>
 </Workspace>
