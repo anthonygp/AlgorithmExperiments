@@ -55,4 +55,7 @@
    <FileRef
       location = "group:SubsetSum/SubsetSum.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:LongestStringPalindrome/LongestStringPalindrome.xcodeproj">
+   </FileRef>
 </Workspace>
