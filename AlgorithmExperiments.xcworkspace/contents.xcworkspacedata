@@ -59,6 +59,9 @@
       location = "group:LongestStringPalindrome/LongestStringPalindrome.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MaxNonAdjacentSum/MaxNonAdjacentSum.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>

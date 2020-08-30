@@ -122,6 +122,8 @@ func main() {
     permutationOfParenthesis(numberOfPairs: numberOfBracketsPairs,
                              result: &result, runningleftParenthesis: 0, runningRightParenthesis: 0)
     print(result)
+    
+    dfsWithoutRecursionPermutationOfParenthesis(numberOfPairs: 3)
 }
 
 main()
