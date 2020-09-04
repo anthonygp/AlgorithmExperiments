@@ -62,6 +62,9 @@
       location = "group:MaxNonAdjacentSum/MaxNonAdjacentSum.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:LRUCache/LRUCache.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
