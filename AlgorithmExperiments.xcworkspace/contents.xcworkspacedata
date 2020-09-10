@@ -68,6 +68,9 @@
       location = "group:SubarraySort/SubarraySort.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:TreesMaxPathSum/TreesMaxPathSum.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
