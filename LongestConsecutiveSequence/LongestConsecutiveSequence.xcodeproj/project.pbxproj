@@ -7,35 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D3BD8EE24F41ED000C571B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8ED24F41ED000C571B6 /* main.swift */; };
+		8D0D28DD250A0342008A066A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D28DC250A0342008A066A /* main.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		8D0D28A62509F436008A066A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D0D28982509E10F008A066A;
-			remoteInfo = SubarraySort;
-		};
-		8D0D28EC250A6860008A066A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8D0D28E8250A6860008A066A /* LongestConsecutiveSequence.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D0D28D9250A0342008A066A;
-			remoteInfo = LongestConsecutiveSequence;
-		};
-		8D0D28F3250A6865008A066A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8D0D28EF250A6865008A066A /* LongestConsecutiveSequence.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 8D0D28D9250A0342008A066A;
-			remoteInfo = LongestConsecutiveSequence;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXCopyFilesBuildPhase section */
-		8D3BD8E824F41ED000C571B6 /* CopyFiles */ = {
+		8D0D28D7250A0342008A066A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -47,15 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubarraySort.xcodeproj; path = ../SubarraySort/SubarraySort.xcodeproj; sourceTree = "<group>"; };
-		8D0D28E8250A6860008A066A /* LongestConsecutiveSequence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LongestConsecutiveSequence.xcodeproj; path = ../LongestConsecutiveSequence/LongestConsecutiveSequence.xcodeproj; sourceTree = "<group>"; };
-		8D0D28EF250A6865008A066A /* LongestConsecutiveSequence.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LongestConsecutiveSequence.xcodeproj; path = ../LongestConsecutiveSequence/LongestConsecutiveSequence.xcodeproj; sourceTree = "<group>"; };
-		8D3BD8EA24F41ED000C571B6 /* MaxHeapTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxHeapTree; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D3BD8ED24F41ED000C571B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		8D0D28D9250A0342008A066A /* LongestConsecutiveSequence */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LongestConsecutiveSequence; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0D28DC250A0342008A066A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8D3BD8E724F41ED000C571B6 /* Frameworks */ = {
+		8D0D28D6250A0342008A066A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,93 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8D0D28A32509F436008A066A /* Products */ = {
+		8D0D28D0250A0342008A066A = {
 			isa = PBXGroup;
 			children = (
-				8D0D28A72509F436008A066A /* SubarraySort */,
+				8D0D28DB250A0342008A066A /* LongestConsecutiveSequence */,
+				8D0D28DA250A0342008A066A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D0D28DA250A0342008A066A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D28D9250A0342008A066A /* LongestConsecutiveSequence */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8D0D28E9250A6860008A066A /* Products */ = {
+		8D0D28DB250A0342008A066A /* LongestConsecutiveSequence */ = {
 			isa = PBXGroup;
 			children = (
-				8D0D28ED250A6860008A066A /* LongestConsecutiveSequence */,
+				8D0D28DC250A0342008A066A /* main.swift */,
 			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8D0D28F0250A6865008A066A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D0D28F4250A6865008A066A /* LongestConsecutiveSequence */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8D3BD8E124F41ED000C571B6 = {
-			isa = PBXGroup;
-			children = (
-				8D0D28E8250A6860008A066A /* LongestConsecutiveSequence.xcodeproj */,
-				8D0D28EF250A6865008A066A /* LongestConsecutiveSequence.xcodeproj */,
-				8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */,
-				8D3BD8EC24F41ED000C571B6 /* MaxHeapTree */,
-				8D3BD8EB24F41ED000C571B6 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		8D3BD8EB24F41ED000C571B6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D3BD8EA24F41ED000C571B6 /* MaxHeapTree */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8D3BD8EC24F41ED000C571B6 /* MaxHeapTree */ = {
-			isa = PBXGroup;
-			children = (
-				8D3BD8ED24F41ED000C571B6 /* main.swift */,
-			);
-			path = MaxHeapTree;
+			path = LongestConsecutiveSequence;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D3BD8E924F41ED000C571B6 /* MaxHeapTree */ = {
+		8D0D28D8250A0342008A066A /* LongestConsecutiveSequence */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8D3BD8F124F41ED000C571B6 /* Build configuration list for PBXNativeTarget "MaxHeapTree" */;
+			buildConfigurationList = 8D0D28E0250A0342008A066A /* Build configuration list for PBXNativeTarget "LongestConsecutiveSequence" */;
 			buildPhases = (
-				8D3BD8E624F41ED000C571B6 /* Sources */,
-				8D3BD8E724F41ED000C571B6 /* Frameworks */,
-				8D3BD8E824F41ED000C571B6 /* CopyFiles */,
+				8D0D28D5250A0342008A066A /* Sources */,
+				8D0D28D6250A0342008A066A /* Frameworks */,
+				8D0D28D7250A0342008A066A /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MaxHeapTree;
-			productName = MaxHeapTree;
-			productReference = 8D3BD8EA24F41ED000C571B6 /* MaxHeapTree */;
+			name = LongestConsecutiveSequence;
+			productName = LongestConsecutiveSequence;
+			productReference = 8D0D28D9250A0342008A066A /* LongestConsecutiveSequence */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8D3BD8E224F41ED000C571B6 /* Project object */ = {
+		8D0D28D1250A0342008A066A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = "Anthony Gonsalves";
 				TargetAttributes = {
-					8D3BD8E924F41ED000C571B6 = {
-						CreatedOnToolsVersion = 11.6;
+					8D0D28D8250A0342008A066A = {
+						CreatedOnToolsVersion = 11.7;
 					};
 				};
 			};
-			buildConfigurationList = 8D3BD8E524F41ED000C571B6 /* Build configuration list for PBXProject "MaxHeapTree" */;
+			buildConfigurationList = 8D0D28D4250A0342008A066A /* Build configuration list for PBXProject "LongestConsecutiveSequence" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -159,67 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 8D3BD8E124F41ED000C571B6;
-			productRefGroup = 8D3BD8EB24F41ED000C571B6 /* Products */;
+			mainGroup = 8D0D28D0250A0342008A066A;
+			productRefGroup = 8D0D28DA250A0342008A066A /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 8D0D28F0250A6865008A066A /* Products */;
-					ProjectRef = 8D0D28EF250A6865008A066A /* LongestConsecutiveSequence.xcodeproj */;
-				},
-				{
-					ProductGroup = 8D0D28E9250A6860008A066A /* Products */;
-					ProjectRef = 8D0D28E8250A6860008A066A /* LongestConsecutiveSequence.xcodeproj */;
-				},
-				{
-					ProductGroup = 8D0D28A32509F436008A066A /* Products */;
-					ProjectRef = 8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
-				8D3BD8E924F41ED000C571B6 /* MaxHeapTree */,
+				8D0D28D8250A0342008A066A /* LongestConsecutiveSequence */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		8D0D28A72509F436008A066A /* SubarraySort */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = SubarraySort;
-			remoteRef = 8D0D28A62509F436008A066A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8D0D28ED250A6860008A066A /* LongestConsecutiveSequence */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LongestConsecutiveSequence;
-			remoteRef = 8D0D28EC250A6860008A066A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		8D0D28F4250A6865008A066A /* LongestConsecutiveSequence */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = LongestConsecutiveSequence;
-			remoteRef = 8D0D28F3250A6865008A066A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXSourcesBuildPhase section */
-		8D3BD8E624F41ED000C571B6 /* Sources */ = {
+		8D0D28D5250A0342008A066A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D3BD8EE24F41ED000C571B6 /* main.swift in Sources */,
+				8D0D28DD250A0342008A066A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8D3BD8EF24F41ED000C571B6 /* Debug */ = {
+		8D0D28DE250A0342008A066A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,7 +187,7 @@
 			};
 			name = Debug;
 		};
-		8D3BD8F024F41ED000C571B6 /* Release */ = {
+		8D0D28DF250A0342008A066A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -332,7 +240,7 @@
 			};
 			name = Release;
 		};
-		8D3BD8F224F41ED000C571B6 /* Debug */ = {
+		8D0D28E1250A0342008A066A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -341,7 +249,7 @@
 			};
 			name = Debug;
 		};
-		8D3BD8F324F41ED000C571B6 /* Release */ = {
+		8D0D28E2250A0342008A066A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -353,25 +261,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8D3BD8E524F41ED000C571B6 /* Build configuration list for PBXProject "MaxHeapTree" */ = {
+		8D0D28D4250A0342008A066A /* Build configuration list for PBXProject "LongestConsecutiveSequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D3BD8EF24F41ED000C571B6 /* Debug */,
-				8D3BD8F024F41ED000C571B6 /* Release */,
+				8D0D28DE250A0342008A066A /* Debug */,
+				8D0D28DF250A0342008A066A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8D3BD8F124F41ED000C571B6 /* Build configuration list for PBXNativeTarget "MaxHeapTree" */ = {
+		8D0D28E0250A0342008A066A /* Build configuration list for PBXNativeTarget "LongestConsecutiveSequence" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8D3BD8F224F41ED000C571B6 /* Debug */,
-				8D3BD8F324F41ED000C571B6 /* Release */,
+				8D0D28E1250A0342008A066A /* Debug */,
+				8D0D28E2250A0342008A066A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8D3BD8E224F41ED000C571B6 /* Project object */;
+	rootObject = 8D0D28D1250A0342008A066A /* Project object */;
 }
