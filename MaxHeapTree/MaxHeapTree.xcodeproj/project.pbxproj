@@ -10,6 +10,16 @@
 		8D3BD8EE24F41ED000C571B6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3BD8ED24F41ED000C571B6 /* main.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8D0D28A62509F436008A066A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D0D28982509E10F008A066A;
+			remoteInfo = SubarraySort;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		8D3BD8E824F41ED000C571B6 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -23,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SubarraySort.xcodeproj; path = ../SubarraySort/SubarraySort.xcodeproj; sourceTree = "<group>"; };
 		8D3BD8EA24F41ED000C571B6 /* MaxHeapTree */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MaxHeapTree; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3BD8ED24F41ED000C571B6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,9 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D0D28A32509F436008A066A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D0D28A72509F436008A066A /* SubarraySort */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8D3BD8E124F41ED000C571B6 = {
 			isa = PBXGroup;
 			children = (
+				8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */,
 				8D3BD8EC24F41ED000C571B6 /* MaxHeapTree */,
 				8D3BD8EB24F41ED000C571B6 /* Products */,
 			);
@@ -108,12 +128,28 @@
 			mainGroup = 8D3BD8E124F41ED000C571B6;
 			productRefGroup = 8D3BD8EB24F41ED000C571B6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8D0D28A32509F436008A066A /* Products */;
+					ProjectRef = 8D0D28A22509F436008A066A /* SubarraySort.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D3BD8E924F41ED000C571B6 /* MaxHeapTree */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8D0D28A72509F436008A066A /* SubarraySort */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = SubarraySort;
+			remoteRef = 8D0D28A62509F436008A066A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D3BD8E624F41ED000C571B6 /* Sources */ = {

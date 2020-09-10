@@ -65,6 +65,9 @@
       location = "group:LRUCache/LRUCache.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SubarraySort/SubarraySort.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
