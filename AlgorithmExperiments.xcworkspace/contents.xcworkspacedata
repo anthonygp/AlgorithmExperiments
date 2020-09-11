@@ -74,6 +74,9 @@
       location = "group:LongestConsecutiveSequence/LongestConsecutiveSequence.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:SameBSTs/SameBSTs.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LongestPathBinaryTree/LongestPathBinaryTree.xcodeproj">
    </FileRef>
    <FileRef
