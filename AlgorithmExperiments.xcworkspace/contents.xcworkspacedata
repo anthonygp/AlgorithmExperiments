@@ -83,6 +83,9 @@
       location = "group:ZigZagTraverse/ZigZagTraverse.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:KnapSackO1/KnapSackO1.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
