@@ -89,6 +89,9 @@
       location = "group:MaxSumIncreasingSubsequence/MaxSumIncreasingSubsequence.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MergeIntervals/MergeIntervals.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:LongestIncreasingSubsequence/LongestIncreasingSubsequence.xcodeproj">
    </FileRef>
    <FileRef
