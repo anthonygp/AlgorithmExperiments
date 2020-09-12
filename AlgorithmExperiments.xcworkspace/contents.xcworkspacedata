@@ -86,6 +86,12 @@
       location = "group:KnapSackO1/KnapSackO1.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MaxSumIncreasingSubsequence/MaxSumIncreasingSubsequence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:LongestIncreasingSubsequence/LongestIncreasingSubsequence.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
