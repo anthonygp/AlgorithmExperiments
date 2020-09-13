@@ -101,6 +101,9 @@
       location = "group:SubsetsSumToAValue/SubsetsSumToAValue.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MaxSubMatrixSumIn2DMatrix/MaxSubMatrixSumIn2DMatrix.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:PartitioningToKEqualSubsets/PartitioningToKEqualSubsets.xcodeproj">
    </FileRef>
    <FileRef
