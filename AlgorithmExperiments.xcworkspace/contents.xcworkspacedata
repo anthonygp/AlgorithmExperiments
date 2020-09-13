@@ -53,9 +53,6 @@
       location = "group:LevensteinEditDistance/LevensteinEditDistance.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:SubsetSum/SubsetSum.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:LongestStringPalindrome/LongestStringPalindrome.xcodeproj">
    </FileRef>
    <FileRef
@@ -96,6 +93,15 @@
    </FileRef>
    <FileRef
       location = "group:LongestIncreasingSubsequence/LongestIncreasingSubsequence.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SubsetSum/SubsetSum.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:SubsetsSumToAValue/SubsetsSumToAValue.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PartitioningToKEqualSubsets/PartitioningToKEqualSubsets.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
