@@ -110,6 +110,9 @@
       location = "group:WaterArea/WaterArea.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:DecodeStringPattern/DecodeStringPattern.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
