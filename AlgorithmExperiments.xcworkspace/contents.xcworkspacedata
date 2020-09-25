@@ -113,6 +113,15 @@
       location = "group:DecodeStringPattern/DecodeStringPattern.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:LongestCharacterReplacement/LongestCharacterReplacement.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TopologicalSort/TopologicalSort.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MinRewards/MinRewards.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
