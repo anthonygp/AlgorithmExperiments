@@ -125,6 +125,9 @@
       location = "group:RegularExpressionMatching/RegularExpressionMatching.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MergeSortedArrays/MergeSortedArrays.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
