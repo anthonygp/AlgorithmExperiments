@@ -128,6 +128,9 @@
       location = "group:MergeSortedArrays/MergeSortedArrays.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:MedianOfTwoSortedArrays/MedianOfTwoSortedArrays.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
 </Workspace>
