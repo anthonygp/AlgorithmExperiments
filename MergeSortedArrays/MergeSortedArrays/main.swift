@@ -129,7 +129,7 @@ print(sorted)
 // Driver function
 func main() {
     print("Merge n sorted arrays.")
-    print("https://leetcode.com/problems/merge-k-sorted-lists/")
+    print("More information can be found at:\nhttps://leetcode.com/problems/merge-k-sorted-lists/")
     let sortedInputArrays = [
         [1, 3, 5, 7, 9, 23, 29],
         [2, 4, 6, 8, 10, 15],
