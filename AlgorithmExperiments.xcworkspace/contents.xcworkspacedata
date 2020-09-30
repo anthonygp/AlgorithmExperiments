@@ -136,4 +136,7 @@
    <FileRef
       location = "group:MaxHeapTree/MaxHeapTree.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:QuickSort/QuickSort.xcodeproj">
+   </FileRef>
 </Workspace>
