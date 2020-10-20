@@ -139,4 +139,10 @@
    <FileRef
       location = "group:QuickSort/QuickSort.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:ShiftedBinarySearch/ShiftedBinarySearch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GraphDirectedDetectCycle/GraphDirectedDetectCycle.xcodeproj">
+   </FileRef>
 </Workspace>
